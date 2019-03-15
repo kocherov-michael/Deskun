@@ -1,0 +1,43 @@
+.favorite-clients {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    width: 100%;
+	// height: 710px;
+	background-color: aqua;
+}
+
+.favorite-clients_items {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	
+	background-color: #ff9;
+	
+	@media (min-width: 1024px){
+		width: 1010px;
+		display: flex;
+		flex-direction: row;
+	    justify-content: space-between;
+	}
+}
+
+.client-card {
+	height: 320px;
+	width: 30%;
+	background-color: yellow;
+	
+	@media (min-width: 1024px){
+		width: 30%;
+		height: 300px;
+		
+	
+	}
+	@media (min-width: 1280px){
+		width: 30%;
+		height: 400px;
+	}
+	
+}
